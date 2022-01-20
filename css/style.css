@@ -7,7 +7,6 @@
 
 .container-global{
     max-width: 1500px;
-    background-color: aquamarine;
     margin: 0 auto;
 }
 
@@ -26,7 +25,6 @@
 .card{
     width: calc(33% - 0.8rem);
     height: 750px;
-    background-color: brown;
     margin-top: 1rem;
     margin-right: 0.8rem;
     float: left;
@@ -41,6 +39,18 @@ article img{
     filter: brightness(90%);
 }
 
+img.hover{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+article:hover img{
+    visibility: visible;
+
+}
 
 .favorite-heart{
     display: inline-block;
@@ -82,7 +92,6 @@ article img{
 
 .card.card1{
     max-width: 33%;
-    background-color: brown;
     
 }
 
