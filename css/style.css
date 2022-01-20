@@ -21,8 +21,8 @@ html{
 }
 
 .row:first-child, .row:last-child{
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 
@@ -92,8 +92,8 @@ article:hover img{
 }
 
 .eco{
-    left: 3em;
-    margin-left: 0.2em;
+    left: 3rem;
+    margin-left: 0.2rem;
     background-color: green;
 }
 
