@@ -43,10 +43,25 @@ article img{
     line-height: 2em;
     font-size: 1.5em;
     text-align: center;
-    
     position: absolute;
     top: 2rem;
     right: 0;
+}
+
+.discount, .eco{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 8rem;
+    background-color: red;
+    color: white;
+    padding: 0.3em;
+    
+}
+
+.eco{
+    left: 3em;
+    background-color: green;
 }
 
 .card1{
