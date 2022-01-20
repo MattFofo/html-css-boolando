@@ -17,6 +17,12 @@
     clear: both;
 }
 
+.row:first-child, .row:last-child{
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+
 .card{
     width: calc(33% - 0.8rem);
     height: 750px;
@@ -64,6 +70,11 @@ article img{
     background-color: green;
 }
 
+.brand{
+    margin-top: 0.8rem;
+    font-weight: lighter;
+}
+
 .card1{
     margin-left: 0.5rem;
     
@@ -75,7 +86,10 @@ article img{
     
 }
 
-.row:first-child, .row:last-child{
-    margin-left: 3em;
-    margin-right: 3em;
+.discounted-price{
+    color: red;
+}
+
+.full-price{
+    text-decoration: line-through;
 }
