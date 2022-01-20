@@ -4,3 +4,35 @@
     box-sizing: border-box;
 }
 
+
+.container-global{
+    max-width: 1200px;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+
+.container-global::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card{
+    width: calc(33% - 0.5rem);
+    height: 400px;
+    background-color: brown;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    float: left;
+}
+
+.card1{
+    margin-left: 0.5rem;
+}
+
+.card.card1{
+    max-width: 33%;
+    background-color: brown;
+    
+}
+
