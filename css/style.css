@@ -64,7 +64,7 @@ img.hover{
 
 article:hover img{
     visibility: visible;
-
+    filter: drop-shadow(10px 10px 20px grey);
 }
 
 .favorite-heart{
