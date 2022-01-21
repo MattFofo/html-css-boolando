@@ -34,7 +34,8 @@ html{
     margin-right: 0.8rem;
     margin-bottom: 0.8rem;
     float: left;
-    position: relative;    
+    position: relative;
+        
 }
 
 
@@ -42,6 +43,7 @@ article img{
     width: 100%;
     object-fit: cover;
     filter: brightness(90%);
+    
 }
 
 article a{
@@ -61,6 +63,7 @@ img.hover{
     position: absolute;
     top: 0;
     left: 0;
+    
     
 }
 
