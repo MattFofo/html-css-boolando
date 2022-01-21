@@ -10,35 +10,36 @@ html{
 }
 
 .container-global{
-    max-width: 1500px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
-.container-global::after{
+/* .container-global::after{
     content: "";
     display: table;
     clear: both;
-}
+} */
 
-.row:first-child, .row:last-child{
+.content:first-child, .content:last-child{
     margin-left: 3rem;
     margin-right: 3rem;
 }
 
 
+
 .card{
-    width: calc(33% - 0.8rem);
-    height: 750px;
+    max-width: calc(33% - 0.8rem);
+    min-width: 200px;
     margin-top: 1rem;
     margin-right: 0.8rem;
+    margin-bottom: 0.8rem;
     float: left;
-    position: relative;
-    
+    position: relative;    
 }
+
 
 article img{
     width: 100%;
-    height: 85%;
     object-fit: cover;
     filter: brightness(90%);
 }
@@ -47,7 +48,7 @@ article a{
     text-decoration: none;
     color: black;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
 
 a:visited{
@@ -71,9 +72,11 @@ article:hover img{
 .favorite-heart{
     display: inline-block;
     background-color: white;
-    width: 1.5em;
-    line-height: 2em;
-    font-size: 1.5em;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    vertical-align: middle;
     text-align: center;
     position: absolute;
     top: 2rem;
@@ -84,10 +87,11 @@ article:hover img{
     display: inline-block;
     position: absolute;
     left: 0;
-    bottom: 8rem;
+    bottom: 6rem;
     background-color: red;
     color: white;
     padding: 0.3em;
+    font-weight: 500;
     
 }
 
@@ -101,7 +105,7 @@ article:hover img{
     display: inline-block;
     position: absolute;
     left: 0;
-    bottom: 8rem;
+    bottom: 6rem;
     color: white;
     padding: 0.3em;
     margin-left: 0;
@@ -118,13 +122,14 @@ article:hover img{
     
 }
 
-.card.card1{
-    max-width: 33%;
-    
+
+.discounted-price, .full-price{
+    font-size: .8rem;
 }
 
 .discounted-price{
     color: red;
+    font-weight: 600;
 }
 
 .full-price{
